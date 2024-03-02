@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Приглашение</title>
+</head>
+<style>
+    button {
+        transition-duration: 0.2s;
+        animation-duration: 0.2s;
+        color: azure;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+</style>
+<body style="
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #06141b, #ccd0cf);
+">
+<h1 id="text" style="
+    color: #eeeeee;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+">Пойдешь в доту?</h1>
+<button id="yes_button"
+        style="
+        background-color: #4CAF50; /* Green */"
+        onclick="onSuccess()"
+>Да</button>
+<button id="no_button" 
+        style="
+        position:relative;
+        background-color: #f44336; /* Red */
+">Нет</button>
+</body>
+<script type="application/javascript" src="index.js"></script>
+</html>
